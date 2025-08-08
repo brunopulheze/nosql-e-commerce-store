@@ -1,0 +1,33 @@
+{
+    "$jsonSchema": {
+        "bsonType": "object",
+        "required": [
+        "_id",
+        "Category",
+        "ID",
+        "Price",
+        "Product Name",
+        "Quantity Available"
+        ],
+        "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "Category": {
+            "bsonType": "string"
+        },
+        "ID": {
+            "bsonType": "int"
+        },
+        "Price": {
+            "bsonType": "double"
+        },
+        "Product Name": {
+            "bsonType": "string"
+        },
+        "Quantity Available": {
+            "bsonType": "int"
+        }
+        }
+    }
+}
